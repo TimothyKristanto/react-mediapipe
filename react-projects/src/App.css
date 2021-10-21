@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: whitesmoke;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn-outline-warning {
+  border: transparent;
+  color: white !important;
+}
+
+.btn-outline-warning:hover {
+  color: black !important;
+}
+
+.rounded-bottom-only {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.center-title {
+  margin-top: 180px;
+  float: left;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.column-left {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  margin-left: 20px;
+}
+
+.column-right {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+}
+
+.planet1 {
+  position: relative;
+  right: 200px;
+  top: 90px;
+}
+
+.planet2 {
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+
+.planet3 {
+  position: relative;
+  top: 130px;
+  left: 300px;
+}
+
+.jupiter {
+  position: relative;
+  right: 100px;
+}
