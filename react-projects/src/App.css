@@ -82,6 +82,10 @@ img {
   align-items: center;
 }
 
+.display-navbar {
+  display: flex;
+}
+
 img {
   position: absolute;
   height: 200px;
@@ -109,4 +113,194 @@ img {
 .jupiter {
   position: relative;
   right: 100px;
+}
+
+.nav-bars-icon {
+  color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+  .planet2 {
+    position: relative;
+    left: 50px;
+    top: 50px;
+  }
+
+  .planet3 {
+    position: relative;
+    top: 130px;
+    left: 170px;
+  }
+
+  .jupiter {
+    position: relative;
+    right: 50px;
+  }
+
+  .planet1 {
+    position: relative;
+    right: 150px;
+    top: 90px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .planet2 {
+    position: relative;
+    left: 10px;
+    top: 50px;
+  }
+
+  .planet3 {
+    position: relative;
+    top: 130px;
+    left: 130px;
+  }
+
+  .jupiter {
+    position: relative;
+    right: 10px;
+  }
+
+  .planet1 {
+    position: relative;
+    right: 130px;
+    top: 90px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .planet3 {
+    position: relative;
+    top: 130px;
+    left: 80px;
+  }
+
+  .planet1 {
+    position: relative;
+    right: 80px;
+    top: 90px;
+  }
+
+  .jupiter {
+    position: relative;
+    right: 50px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .planet2 {
+    position: relative;
+    left: 10px;
+    top: 0px;
+  }
+
+  .jupiter {
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+  }
+
+  .planet3 {
+    position: relative;
+    top: 110px;
+    left: 40px;
+  }
+
+  .planet1 {
+    position: relative;
+    right: 40px;
+    top: 90px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  img {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+  }
+
+  .planet2 {
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+  }
+
+  .jupiter {
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+  }
+
+  .planet3 {
+    position: relative;
+    top: 150px;
+    left: 40px;
+  }
+
+  .planet1 {
+    position: relative;
+    right: 40px;
+    top: 160px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  img {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+  }
+
+  .planet2 {
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+  }
+
+  .jupiter {
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+  }
+
+  .planet3 {
+    position: relative;
+    top: 190px;
+    left: 40px;
+  }
+
+  .planet1 {
+    position: relative;
+    right: 40px;
+    top: 160px;
+  }
+
+  .center-title {
+    margin-top: 180px;
+    float: left;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column-left {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    margin-left: 20px;
+  }
+
+  .column-right {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+  }
 }
