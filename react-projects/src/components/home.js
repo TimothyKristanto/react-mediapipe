@@ -15,6 +15,7 @@ const Home = () => {
           className="planet2"
           whileTap={{ scale: 0.9 }}
           drag={true}
+          dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0, transition: { duration: 1.5 } }}
         />
@@ -22,9 +23,10 @@ const Home = () => {
           src={planet3}
           className="planet3"
           whileTap={{ scale: 0.9 }}
-          initial={{ opacity: 0, y: 100 }}
+          initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0, transition: { duration: 1.5 } }}
           drag={true}
+          dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
         />
       </div>
       <div className="center-title text-center">
@@ -55,7 +57,8 @@ const Home = () => {
           className="jupiter"
           whileTap={{ scale: 0.9 }}
           drag={true}
-          initial={{ opacity: 0, x: 100 }}
+          initial={{ opacity: 0, x: 50 }}
+          dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
           animate={{ opacity: 1, x: 0, transition: { duration: 1.5 } }}
         />
         <motion.img
@@ -64,6 +67,7 @@ const Home = () => {
           whileTap={{ scale: 0.9 }}
           drag={true}
           initial={{ opacity: 0, y: 100 }}
+          dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
           animate={{ opacity: 1, y: 0, transition: { duration: 1.5 } }}
         />
       </div>
