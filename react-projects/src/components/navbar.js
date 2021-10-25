@@ -39,7 +39,7 @@ const Navbar = () => {
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav">
-              <li className="nav-item mx-1">
+              <li className="nav-item mx-1 my-1">
                 <Link to="/" className="text-decoration-none">
                   <button
                     onClick={goToHomePage}
@@ -49,7 +49,7 @@ const Navbar = () => {
                   </button>
                 </Link>
               </li>
-              <li className="nav-item mx-1">
+              <li className="nav-item mx-1 my-1">
                 <Link to="/project" className="text-decoration-none">
                   <button
                     onClick={goToProjectPage}
@@ -88,7 +88,7 @@ const Navbar = () => {
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav">
-              <li className="nav-item mx-1">
+              <li className="nav-item mx-1 my-1">
                 <Link to="/" className="text-decoration-none">
                   <button
                     onClick={goToHomePage}
@@ -98,7 +98,7 @@ const Navbar = () => {
                   </button>
                 </Link>
               </li>
-              <li className="nav-item mx-1">
+              <li className="nav-item mx-1 my-1">
                 <Link to="/project" className="text-decoration-none">
                   <button
                     onClick={goToProjectPage}
